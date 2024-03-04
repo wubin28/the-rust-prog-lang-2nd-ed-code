@@ -37,4 +37,13 @@ fn main() {
     let (x, y, z) = tup;
 
     println!("The value of y is: {y}");
+
+    // To access each element of the tuple directly
+    let x: (i32, f64, u8) = (501, 7.4, 2);
+    let five_hundred_and_one = x.0;
+
+    let seven_point_four = x.1;
+
+    let two = x.2;
+    println!("The value of x.1 is: {}", x.1);
 }
